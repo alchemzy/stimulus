@@ -13,15 +13,12 @@ def compute_sentiments(file):
         sentiments = sentiment_pipeline(reviews)
         data = []
 
-        i = 0
         for review, sentiment in zip(reviews, sentiments):
             data.append({
-                'id': i,
                 'review': review,
                 'star rating': sentiment['label'],
                 'score': sentiment['score']
             })
-            i += 1
         with open(DATA_FILE, 'w') as data_file:
             data_file.write(json.dumps(data))
 
