@@ -4,6 +4,7 @@ import json
 REVIEWS_FILE = 'reviews.txt'
 DATA_FILE = 'data.json'
 
+
 def compute_sentiments(file):
     reviews = None
     with open(file) as file:
