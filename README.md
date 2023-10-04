@@ -1,5 +1,4 @@
 # stimulus
-
 I chose the amazon review trained model: https://huggingface.co/LiYuan/amazon-review-sentiment-analysis
 - it is trained on product reviews and customer sentiment on products.
 - to get the star ratings for a simple easy to understand 5 point rating.
