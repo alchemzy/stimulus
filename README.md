@@ -6,4 +6,4 @@ I chose the amazon review trained model: https://huggingface.co/LiYuan/amazon-re
 Caveats: If more is known about the type of product reviews being made, a more optimal model can be chosen that better fits the requirements.
 
 
-The data was compiled into json in "data.json", composed of id, review, star rating, and score.
+The data was compiled into json in "data.json", composed of review, star rating, and score.
